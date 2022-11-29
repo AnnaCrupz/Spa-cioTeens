@@ -1,4 +1,4 @@
-.white{
+.blanco{
     color: white;
   }
 .cuadro{
@@ -6,9 +6,9 @@
     height:40%;
     border-radius: 8px;
     padding:2%;
-    margin-top: 105px;
-    margin-bottom: 15px;
-    margin-left: 55px;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
     position: relative;
     background:rgb(227, 74, 120);
 }
@@ -20,14 +20,17 @@
     padding: 15px;
     margin-bottom: 12px;
     margin-top: 12px;
-    justify-items: center;
+    margin: auto;
+    position: relative;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 20px;
 }
-pre{
-    text-justify: auto;
+h2{
+    text-align: center;
 }
-
+#texto{
+    justify-content: baseline;
+    font-size: medium;
+}
   
